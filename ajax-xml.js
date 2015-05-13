@@ -8,7 +8,8 @@ function getXML(theURL, callback)
 	 * @info http://james.padolsey.com/javascript/cross-domain-requests-with-jquery/
 	 * source: https://raw.github.com/padolsey/jquery.fn/master/cross-domain-ajax/jquery.xdomainajax.js
    *
-   * This version adds a fix for correctly handling format:xml
+   * This version adds a fix for correctly handling  $.ajax({dataType: 'xml', ... }
+
 	 */
 	jQuery.ajax = (function(_ajax)
 	{
