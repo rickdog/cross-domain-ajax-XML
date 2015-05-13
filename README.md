@@ -9,7 +9,7 @@ All based on Heilmann's original post: http://christianheilmann.com/2010/01/10/l
 
 This version fixes a problem with Padolsey's function - it fails when getting raw XML.
 
-I've wrapped the jQuery.ajax over-ride in a function that supports a callback and also jQuery promise.
+I've wrapped the jQuery.ajax override in a function that supports a callback and also jQuery promise.
 
 Callback:
 ```
