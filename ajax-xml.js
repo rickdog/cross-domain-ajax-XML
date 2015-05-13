@@ -1,16 +1,15 @@
 // callback is optional
 function getXML(theURL, callback)
 {
-	/**
-	 * Original jQuery.ajax mid - CROSS DOMAIN AJAX 
-	 * @author James Padolsey (http://james.padolsey.com)
-	 * @updated 12-JAN-10
-	 * @info http://james.padolsey.com/javascript/cross-domain-requests-with-jquery/
-	 * source: https://raw.github.com/padolsey/jquery.fn/master/cross-domain-ajax/jquery.xdomainajax.js
-   *
-   * This version adds a fix for correctly handling  $.ajax({dataType: 'xml', ... }
-
-	 */
+	/*
+	* Original jQuery.ajax mid - CROSS DOMAIN AJAX 
+	* @author James Padolsey (http://james.padolsey.com)
+	* @updated 12-JAN-10
+	* @info http://james.padolsey.com/javascript/cross-domain-requests-with-jquery/
+	* source: https://raw.github.com/padolsey/jquery.fn/master/cross-domain-ajax/jquery.xdomainajax.js
+	*
+	* This version adds a fix for correctly handling  $.ajax({dataType: 'xml', ... }
+	*/
 	jQuery.ajax = (function(_ajax)
 	{
 		var protocol = location.protocol,
