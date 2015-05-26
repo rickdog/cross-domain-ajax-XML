@@ -1,6 +1,8 @@
 # cross-domain-ajax-XML
 XML Cross-domain AJAX
 
+https://codio.com/p/create/?from_github=rickdog/cross-domain-ajax-XML
+
 Fixes Padolsey's jJQuery.ajax override for executing cross-domain Ajax (XSS).
 post: http://james.padolsey.com/javascript/cross-domain-requests-with-jquery/
 source: https://github.com/padolsey-archive/jquery.fn/tree/master/cross-domain-ajax
